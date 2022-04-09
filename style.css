@@ -1,0 +1,192 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #0093AB;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+  font-size: 100%;
+  /* 1rem =16px*/
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+body {
+  background-color: #006778;
+}
+
+body .container {
+  background-color: #FAEEE7;
+  width: 50%;
+  height: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+
+body .container h1 {
+  width: 90%;
+  font-size: 2.5rem;
+  border-bottom: solid 1px rgba(0, 147, 171, 0.2);
+  text-align: center;
+}
+
+body .container .gamebox {
+  height: 100%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .gamebox .gamebox_head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .gamebox .gamebox_head .icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  stroke: red;
+  fill: red;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+body .container .gamebox .gamebox_head .icon_grey {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  stroke: grey;
+  fill: grey;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+body .container .gamebox .gamebox_body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .gamebox .gamebox_body .text {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+body .container .gamebox .gamebox_body input {
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 10px;
+}
+
+body .container .gamebox .gamebox_body .predicted_number {
+  width: 75%;
+  text-align: center;
+  font-size: 20px;
+}
+
+body .container .gamebox .gamebox_body .lucky {
+  font-size: 24px;
+  border-bottom: solid 2px Red;
+}
+
+body .container .gamebox .gamebox_footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+body .container .gamebox .gamebox_footer .btn_gues {
+  width: 50%;
+  font-size: 1.5rem;
+  border: solid 1px transparent;
+  background-color: #006778;
+  border-radius: 5px;
+  color: #FAEEE7;
+  cursor: pointer;
+}
+
+body .container .gamebox .gamebox_footer .btn_again {
+  width: 50%;
+  font-size: 1.5rem;
+  border: solid 1px transparent;
+  background-color: #D8D2CB;
+  border-radius: 5px;
+  color: #FAEEE7;
+  cursor: pointer;
+}
+
+body .container .gamebox .gamebox_footer .btn_hide {
+  display: none;
+}
+
+body .container .gamebox .gamebox_footer .btn_show {
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */
